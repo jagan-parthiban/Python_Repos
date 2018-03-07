@@ -1,4 +1,4 @@
-def main():
+def man():
     cand_no = int(input())
     myList = [[0 for x in range(2)] for y in range(cand_no)] 
     for i in range(cand_no):
