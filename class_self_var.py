@@ -36,6 +36,7 @@ def main():
         print(p.age)
         p.amIOld()
         print("")
+        print("")
 
 if __name__ == '__main__':
     main()
