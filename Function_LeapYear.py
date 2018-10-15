@@ -7,10 +7,9 @@ def is_leap(year):
     elif (year%4 == 0 and year%100 == 0 and year%400 == 0):
         leap = True
     elif (year%4 == 0 and year%100 == 0 and year%400 != 0):
-        leap = False
- ## changed          
+        leap = False      
     return leap
-
+ ## changed    
 def main():
     year = int(input())
     print(is_leap(year))
